@@ -12,9 +12,9 @@ a{
 
 }
 .contact-jer{
-  width: 40%;  
+  width: 45%;  
   margin: 40px auto 60px;
-  line-height: 4;
+  line-height: 2;
 }
 .p1{
     color:#F11A7B ;
@@ -53,23 +53,24 @@ hr{
 p{
     line-height: 2;
 }
-
-
-.top-container{
-   
-}
    
 .middle-container{
     background-image: url("../images/top.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     background-position: center;
+    padding-bottom: 50px;
 }
 .bottom-container{
     background-image: url("../images/b111.jpg");
     background-size: 100% 100%;
+    max-height: 70px;
     background-repeat: no-repeat;
     background-position: center;
+    padding: 30px;
+}
+.bottom-container p {
+    color: #fff;
 }
 .profile{
     margin:100px;
@@ -111,7 +112,9 @@ p{
     text-decoration: none;
     line-height: 3;
   }
-  
+  .bottom-container a:hover {
+    color: yellow;
+}
   .btn:hover {
     background: #fa6f3c;
     background-image: -webkit-linear-gradient(top, #fa6f3c, #7011bd);
